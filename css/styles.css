@@ -94,7 +94,7 @@ ul {
     align-items: center;
     justify-content: center;
     gap:40px;
-    margin: 284px 35px 0px 40px;
+    margin: 155px 35px 0px 40px;
     transition: color var(--transition);
 }
 
@@ -164,7 +164,9 @@ ul {
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top:188px;
+    margin-top:112px;
+    padding-left: 54px;
+    padding-right: 54px;
 }
 
 .button-container{
@@ -467,7 +469,7 @@ ul {
     background-color: var(--title-color);
     width: auto;
     height: 600px;
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/peopleoff.jpg");
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/peopleoff2x.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -476,12 +478,12 @@ ul {
 
 h1 {
     font-weight: 700; 
-    font-size: 56px;
+    font-size: 36px;
     text-align: center;
-    line-height: 1.07;
+    line-height: 1.16;
     color: #ffffff;
-    width: 496px;
-    height: 120px;
+    width: 320px;
+    height: 80px;
     letter-spacing: 2%;
 }
 
@@ -992,6 +994,23 @@ body {
     align-items: center;
     gap: 76px;
     }
+
+    .hero-section{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/peopleoff.jpg");
+    }
+        .title-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 188px;
+        }
+                h1 {
+                    font-size: 56px;
+                    line-height: 1.07;
+                    color: #ffffff;
+                    width: 496px;
+                    height: 120px;
+                }
     .first-section svg {
     display: initial;
     width: 64px;
