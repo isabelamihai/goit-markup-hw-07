@@ -468,8 +468,8 @@ ul {
 .hero-section {
     background-color: var(--title-color);
     width: auto;
-    height: 600px;
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/peopleoff2x.jpg");
+    height: 432px;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/peopleoff2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -996,6 +996,7 @@ body {
     }
 
     .hero-section{
+        height: 600px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/peopleoff.jpg");
     }
         .title-container {
