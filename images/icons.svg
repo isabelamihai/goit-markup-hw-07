@@ -84,5 +84,8 @@
 <symbol id="icon-checkbox-checked" viewBox="0 0 32 32">
 <path d="M28 0h-24c-2.2 0-4 1.8-4 4v24c0 2.2 1.8 4 4 4h24c2.2 0 4-1.8 4-4v-24c0-2.2-1.8-4-4-4zM14 24.828l-7.414-7.414 2.828-2.828 4.586 4.586 9.586-9.586 2.828 2.828-12.414 12.414z"></path>
 </symbol>
+<symbol id="icon-menu" viewBox="0 0 20 20">
+<path d="M0 3h20v2h-20v-2zM0 9h20v2h-20v-2zM0 15h20v2h-20v-2z"></path>
+</symbol>
 </defs>
 </svg>
