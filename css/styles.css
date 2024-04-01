@@ -930,37 +930,42 @@ h3 {
         .end-section {
         height:456px; 
         }
-                .full-container {
-                    display: flex;
-                    align-items: first baseline;
-                    justify-content: flex-start;
-                }
-        
-                .social-end {
-                    justify-content: ;
-                    width: 208px;
-                    height: 80px;
-                    margin-left: 120px;
-                    margin-top: 0px;
-                    margin-bottom: 0px;
-        
-                }
-        
-                .form-end {
-                    display: flex;
-                    justify-content: baseline;
-                    align-items: center;
-                    padding-top: 16px;
-                }
-        
-                .f-end {
-                    margin-left: 80px;
-                    width: 453px;
-                    height: 80px;
-                    margin-top: 72px;
-                }
 
-}
+        .full-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        padding-left: 108px;
+         }
+
+         .last-container{
+            align-items:start;
+         }
+        .social-end {
+            width: 208px;
+            height: 80px;
+            margin-left: 16px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+         }
+        
+        .form-end {
+            flex-direction: row;
+            align-items: first baseline;
+            padding-top: 16px;
+            gap:0px;
+        }
+        
+        .f-end {
+            width: 453px;
+            height: 80px;
+            margin-top: 72px;
+            justify-content: start;
+        }
+        .form-end input {
+            width: 264px;
+        }
+                }
 /* Stilizare desktop si device-uri peste 1200px */
 
 @media screen and (min-width: 1200px) {
@@ -1123,12 +1128,15 @@ body {
     margin-left: 24px;
 }
 .full-container {
-    display: flex;
-    align-items: first baseline;
-    justify-content: flex-start;
+    flex-direction: row;
 }
+
+.last-container {
+    flex-direction:column;
+    align-items:flex-start;
+}
+
 .social-end {
-    justify-content: ;
     width: 208px;
     height: 80px;
     margin-left: 120px;
@@ -1137,9 +1145,8 @@ body {
 
 }
 .form-end {
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
+    flex-direction: row;
+    align-items: first baseline;
     padding-top: 16px;
 }
 .f-end {
@@ -1147,6 +1154,8 @@ body {
     width: 453px;
     height: 80px;
     margin-top: 72px;
+    align-items: left;
+    justify-content: left;
 }
 .form-end input {
     width: 264px;
