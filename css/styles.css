@@ -135,10 +135,10 @@ ul {
     justify-content: center;
 }
 
-.first-section li {
+.first-container li {
     width: 396px;
     height: 96px;
-    margin-bottom:72px;
+    margin-bottom: 72px;
 }
 
 .mobile-first-section h3{
@@ -1007,22 +1007,24 @@ body {
     }
 
     .hero-section{
-        height: 600px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/peopleoff.jpg");
+    height: 600px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/peopleoff.jpg");
     }
-        .title-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 188px;
-        }
-                h1 {
-                    font-size: 56px;
-                    line-height: 1.07;
-                    color: #ffffff;
-                    width: 496px;
-                    height: 120px;
-                }
+    .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 188px;
+     }
+
+    h1 {
+    font-size: 56px;
+    line-height: 1.07;
+    color: #ffffff;
+    width: 496px;
+    height: 120px;
+    }
+
     .first-section svg {
     display: initial;
     width: 64px;
@@ -1048,10 +1050,27 @@ body {
         .first-section svg:focus {
             color: var(--color-hover);
         }
-         .first-container li {
+
+        .first-container li {
         width: 264px;
         height: 104px;
-        margin: 24px;
+        gap: 24px;
+        }
+
+        .first-section h3{
+        text-align: start;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 2%;
+        }
+
+        .first-section p{
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 2%;
+            width: 264px;
+            height: 72px;
         }
 
         .second-container {
