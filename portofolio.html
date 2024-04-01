@@ -14,17 +14,63 @@
     <title>Portofolio</title>
 </head>
 <body>
+    <div class="js-menu-container">
+        <button class="close-btn js-close-menu">
+            <svg>
+                <use href="./images/icons.svg#icon-closeb"></use>
+            </svg>
+        </button>
+        <nav class="mobile-nav">
+            <ul class="mobile-menu-nav">
+                <li>
+                    <a href="index.html" class="">Studio</a>
+                </li>
+                <li>
+                    <a href="portofolio.html" class="active">Portofolio</a>
+                </li>
+                <li>
+                    <a href="" class="">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <address class="mobile-list">
+            <a href="mailto:info@devstudio.com" class="mobile-email">info@devstudio.com</a>
+            <a href="tel:+11(000)111-11-11" class="mobile-tel">+11 (000) 111-11-11</a>
+        </address>
+        <div class="social-end-links">
+            <a href="https://www.instagram.com/" target="_blank" class="icon" aria-lebel="instagram-link">
+                <svg>
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+            </a>
+            <a href="https://www.twitter.com/" target="_blank" class="icon" aria-lebel="twitter-link">
+                <svg>
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" class="icon" aria-lebel="facebook-link">
+                <svg>
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" class="icon" aria-lebel="linkedin-link">
+                <svg>
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
     <header class="global-header">
         <div class="container">
             <div class="header-container">
                 <div class="test-container">
                         <div class="mobile-header">
                             <a href="index.html" class="logo">STUDIO</a>
-                            <i class="mobile-menu">
-                                <svg>
-                                    <use href="./images/icons.svg#icon-menu"></use>
-                                </svg>
-                            </i>
+                        <button class="mobile-menu js-open-menu">
+                            <svg>
+                                <use href="./images/icons.svg#icon-menu"></use>
+                            </svg>
+                        </button>
                         </div>
         <nav class="global-nav">
             <ul class="nav-list nav-container">
@@ -250,5 +296,6 @@
         </div>
         </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
