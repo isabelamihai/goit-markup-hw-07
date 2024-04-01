@@ -471,11 +471,19 @@ ul {
     background-color: var(--title-color);
     width: auto;
     height: 432px;
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/peopleoff2x.jpg");
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/peopleoff.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+ }
+
+ @media (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+     .hero-section {
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/peopleoff2x.jpg");
+     }
  }
 
 h1 {
@@ -882,9 +890,7 @@ h3 {
             align-items: center;
             gap: 38px;
         }
-        .hero-section{
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/peopleoff.jpg");
-        }
+
         .first-container{
         margin-left:16px;
         margin-right:16px;
@@ -956,6 +962,7 @@ h3 {
 
 }
 /* Stilizare desktop si device-uri peste 1200px */
+
 @media screen and (min-width: 1200px) {
 
 body {
