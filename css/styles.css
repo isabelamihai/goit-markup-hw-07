@@ -1129,11 +1129,12 @@ body {
 }
 .full-container {
     flex-direction: row;
+    padding-left:0px;
 }
 
 .last-container {
     flex-direction:column;
-    align-items:flex-start;
+    justify-content:first baseline;
 }
 
 .social-end {
@@ -1150,12 +1151,10 @@ body {
     padding-top: 16px;
 }
 .f-end {
-    margin-left: 80px;
+    margin-left:80px;
     width: 453px;
     height: 80px;
     margin-top: 72px;
-    align-items: left;
-    justify-content: left;
 }
 .form-end input {
     width: 264px;
